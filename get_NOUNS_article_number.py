@@ -20,7 +20,7 @@ f.close
 
 #fjern single bokstaver og kanskje de som begynner med tall
 #fjern dur/moll og undersøk NOUN_uninfl
-###
+####
 
 
 #lager ny json fil, med ordet, artikkel nr. og NOUN
