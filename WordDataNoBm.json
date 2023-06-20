@@ -1,0 +1,194 @@
+[
+    {
+        "DifficultLevel": 0,
+        "Word": "ADHD",
+        "WordId": 0,
+        "WordLength": 4,
+        "example": "gutten ble diagnostisert med ADHD",
+        "explanation": "tilstand preget av konsentrasjonsvansker, hyperaktivitet og impulsivitet"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "APA",
+        "WordId": 1,
+        "WordLength": 3,
+        "example": null,
+        "explanation": "øl av typen ale med utpreget smak av humle"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "ring",
+        "WordId": 2,
+        "WordLength": 4,
+        "example": "ha dyre ringer på fingrene, i ørene",
+        "explanation": "smal og tynn sirkelformet gjenstand med åpning i midten"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "trapp",
+        "WordId": 3,
+        "WordLength": 5,
+        "example": "hun gikk opp trappa",
+        "explanation": "(rekke av) sammenhengende trinn eller avsatser"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesbe",
+        "WordId": 4,
+        "WordLength": 5,
+        "example": null,
+        "explanation": "lesbisk kvinne"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesebok",
+        "WordId": 5,
+        "WordLength": 7,
+        "example": null,
+        "explanation": "skolebok til øving i lesing"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesedrama",
+        "WordId": 6,
+        "WordLength": 9,
+        "example": null,
+        "explanation": "drama som er ment til å leses og ikke til å oppføres på scenen"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "leseferdighet",
+        "WordId": 7,
+        "WordLength": 13,
+        "example": null,
+        "explanation": "evne til å lese"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesehest",
+        "WordId": 8,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "person som er særlig glad i å lese"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "leselampe",
+        "WordId": 9,
+        "WordLength": 9,
+        "example": null,
+        "explanation": "lampe med godt lys til å lese ved"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesemåte",
+        "WordId": 10,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "måte å lese, forstå noe på"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "lesepenn",
+        "WordId": 11,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "lysfølsomt penneformet redskap for prisavlesning i forbindelse med datastyrt kasseapparat"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "tallybok",
+        "WordId": 12,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "bok med skjema til å føre tally i"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "tallymann",
+        "WordId": 13,
+        "WordLength": 9,
+        "example": null,
+        "explanation": "person som fører tally"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talmud",
+        "WordId": 14,
+        "WordLength": 6,
+        "example": null,
+        "explanation": "jødisk skriftsamling som inneholder fortolkninger av Bibelen"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talmudisme",
+        "WordId": 15,
+        "WordLength": 10,
+        "example": null,
+        "explanation": "jødisk bevegelse som bygger på talmud"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talmudist",
+        "WordId": 16,
+        "WordLength": 9,
+        "example": null,
+        "explanation": "jødisk lærd som har samlet eller kommentert talmud"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talong",
+        "WordId": 17,
+        "WordLength": 6,
+        "example": null,
+        "explanation": "stykke som blir igjen av ulike former for verdipapir (aksje, postanvisning eller lignende) etter at en har klippet eller revet av kvitteringen (kupongen)"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talskvinne",
+        "WordId": 18,
+        "WordLength": 10,
+        "example": null,
+        "explanation": "kvinne som taler på vegne av andre, som representerer, virker for en sak eller en annen parts interesser; talsmann $"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talsmann",
+        "WordId": 19,
+        "WordLength": 8,
+        "example": "en talsmann for regjeringen, de streikende",
+        "explanation": "person som taler på vegne av andre, som representerer, virker for en sak eller en annen parts interesser"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "talsperson",
+        "WordId": 20,
+        "WordLength": 10,
+        "example": null,
+        "explanation": "talsmann $"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "tamarind",
+        "WordId": 21,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "tropisk tre med fjærlignende blad, gule blomsterklaser og lange, spiselige belger, Tamarindus indica"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "tamarisk",
+        "WordId": 22,
+        "WordLength": 8,
+        "example": null,
+        "explanation": "subtropisk, sypresslignende tre eller busk med små skjellaktige blad av slekta Tamarix"
+    },
+    {
+        "DifficultLevel": 0,
+        "Word": "tambak",
+        "WordId": 23,
+        "WordLength": 6,
+        "example": null,
+        "explanation": "gullfarget messing, brukt i billige smykker og ur"
+    }
+]

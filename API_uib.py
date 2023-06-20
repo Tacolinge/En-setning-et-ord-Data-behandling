@@ -1,6 +1,4 @@
 import json
-import os
-import time
 import requests
 
 # find_path_to_json_file = os.getcwd() + "\test_lemma_til_api.json"
@@ -46,11 +44,3 @@ def get_article_number(json_file):
         # print(json_data)
         # collect_values(json_data)
     f.close
-
-
-""" if __name__ == "__main__":
-    start_timer = time.time()
-    get_article_number(json_path)  # runs the app
-    # uib_api("https://ord.uib.no/bm/article/1.json")
-    end_timer = time.time()
-    print(end_timer - start_timer) """
