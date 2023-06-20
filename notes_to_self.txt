@@ -1,0 +1,6 @@
+Bør lage et dataset med vanlige substantiver for å- 
+regne ut vanskelighetsgraden til ordene.
+frekvens, lengden på ordet, om example != 0, kan være en del av regenstykket.
+
+
+Norsk aviskorpus https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-4/
