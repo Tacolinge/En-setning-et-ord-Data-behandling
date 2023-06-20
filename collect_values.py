@@ -1,6 +1,7 @@
 import json
 
-relation_dictionary = {"el": "eller", "e_l": "eller lignende"}
+relation_dictionary = {
+    "el": "eller", "e_l": "eller lignende", "jf": "jamfør", "o_l": "og lignende", "i_spraakv": "i språkvitenskap", "mus": "i musikk", "bot": "i botanikk", "med": "i medisin", "f_eks": "for eksempel", "bf": "bestemt form", "o_a": "og annet"}
 
 
 def find_relation(value):
@@ -36,10 +37,14 @@ def make_missing_word_list(dictionary):
                         rel_id = find_relation(i["id"])
                         if not rel_id == None:
                             m_words.append(rel_id)
+                        if rel_id == None:
+                            print(dictionary)
+
     if "quote" in keys:
         text = dictionary["quote"]["content"]
         for i in dictionary["quote"]["items"]:
-            m_words.append(i["text"])
+            if "text" in i.keys():
+                m_words.append(i["text"])
     if not m_words:  # sjekker om listen er tom
         print("Kunne ikke finne manglende ord.")
         return dictionary
@@ -58,7 +63,10 @@ def parse_dict(dict_to_parse):
         string = dict_to_parse["quote"]["content"]
     if "$" in string:  # må lage en replace funksjon her siden mange ord er linket med "$"
         # replace_missing_word(dict_to_parse)
-        string = make_missing_word_list(dict_to_parse)
+        string_parsed = make_missing_word_list(dict_to_parse)
+        if "$" in string_parsed:  # om parse ikke funket 100% return dict
+            return dict_to_parse
+        string = string_parsed
     return string  # om det ikke går å ersatte $ retuner den dict_to_parse
 
 
@@ -83,9 +91,12 @@ def find_dict_with_type(data, type_):  # chatGPT to the rescue
 def collect_values(json_data):
     definitions = json_data["body"]["definitions"]
     if not definitions:
-        print("Hopper over ordet fordi listen er tom")
+        print("--------Hopper over ordet fordi listen er tom")
         return None
     definitions = json_data["body"]["definitions"][0]
+    if not json_data["lemmas"]:
+        print("--------Dropper pga finner ikke ord")
+        return None
     word = json_data["lemmas"][0]["lemma"]
     # print("DETTE ER DEF_______", definitions, type(definitions))
     explanation = find_dict_with_type(definitions, "explanation")
@@ -93,11 +104,7 @@ def collect_values(json_data):
     explanation = parse_dict(explanation)
     example = parse_dict(example)
     if explanation == None:
-        print("dropper ", word, "pga ingen forklaring")
+        print("-------dropper ", word, "pga ingen forklaring")
         return None
-    print("Added WORD_____ ", word)
+    print("Added WORD ", word)
     return [word, explanation, example]
-
-
-# teststr = "$ av typen $ med utpreget smak av $"
-# test_liste = ["aw"]

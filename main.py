@@ -9,7 +9,8 @@ import API_uib as api
 import collect_values as cv
 import write_to_new_file as wtnf
 
-json_path = "test_lemma_til_api.json"
+json_path = "lemma_nouns.json"  # ALLE nouns
+# json_path = "test_lemma_til_api.json"
 new_data = []  # list of lists
 filename_bm = 'WordDataNoBm.json'  # new filename
 

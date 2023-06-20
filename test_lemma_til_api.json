@@ -24,5 +24,21 @@
   ["talsperson", 98508, "NOUN_regular"],
   ["tamarind", 98407, "NOUN_regular"],
   ["tamarisk", 98409, "NOUN_regular"],
-  ["tambak", 59754, "NOUN_regular"]
+  ["tambak", 59754, "NOUN_regular"],
+  ["tamtam", 59765, "NOUN_regular"],
+  ["tamtamtromme", 59766, "NOUN_regular"],
+  ["tan", 59767, "NOUN_regular"],
+  ["tandem", 59769, "NOUN_regular"],
+  ["tandemhopp", 70852, "NOUN_regular"],
+  ["tandemmotor", 59770, "NOUN_regular"],
+  ["tandemsykkel", 59771, "NOUN_regular"],
+  ["tane", 59773, "NOUN_regular"],
+  ["tang", 59775, "NOUN_regular"],
+  ["tanga", 59777, "NOUN_regular"],
+  ["arbeiderdikting", 2473, "NOUN_regular"],
+  ["arbeiderforening", 2474, "NOUN_regular"],
+  ["arbeiderf\u00c3\u00b8rer", 2475, "NOUN_regular"],
+  ["applikator", 2414, "NOUN_regular"],
+  ["applikatur", 97022, "NOUN_regular"],
+  ["apokope", 2341, "NOUN_regular"]
 ]
