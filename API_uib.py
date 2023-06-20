@@ -9,11 +9,11 @@ json_path = r"En-setning-et-ord-Data-behandling\test_lemma_til_api.json"
 new_json_data = []  # list of dicts
 
 
-def collect_values(json_data):
+""" def collect_values(json_data):
     word = json_data["lemmas"][0]["lemma"]
     explanation = json_data["body"]["definitions"][0]["elements"][0]["elements"][0]["content"]
     example = json_data["body"]["definitions"][0]["elements"][0]["elements"][1]["quote"]["content"]
-    print(word, explanation, example, sep='\n')
+    print(word, explanation, example, sep='\n') """
 
 
 def get_article_url(article_id):
@@ -44,13 +44,13 @@ def get_article_number(json_file):
         url = get_article_url(num[1])
         json_data = uib_api(url)
         # print(json_data)
-        collect_values(json_data)
+        # collect_values(json_data)
     f.close
 
 
-if __name__ == "__main__":
+""" if __name__ == "__main__":
     start_timer = time.time()
     get_article_number(json_path)  # runs the app
     # uib_api("https://ord.uib.no/bm/article/1.json")
     end_timer = time.time()
-    print(end_timer - start_timer)
+    print(end_timer - start_timer) """
