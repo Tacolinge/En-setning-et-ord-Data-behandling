@@ -1,7 +1,7 @@
 import json
 
 relation_dictionary = {
-    "el": "eller", "e_l": "eller lignende", "jf": "jamfør", "o_l": "og lignende", "i_spraakv": "i språkvitenskap", "mus": "i musikk", "bot": "i botanikk", "med": "i medisin", "f_eks": "for eksempel", "bf": "bestemt form", "o_a": "og annet"}
+    "el": "eller", "e_l": "eller lignende", "jf": "jamfør", "o_l": "og lignende", "i_spraakv": "i språkvitenskap", "mus": "i musikk", "bot": "i botanikk", "med": "i medisin", "f_eks": "for eksempel", "bf": "bestemt form", "o_a": "og annet", "fork": "forkorting", "bl_a": "blant", "fys": "fysikk", "i_mat": "i mattematikk", "saerl": "særlig", "neds": "nedsettende", "foreld": "foreldet", "i_idr": "i idrett", "fl": "flertall", "e": "eldre", "forh": "forhold", "i_filos": "i filosofi", "m": "m", "i_rel": "i religiøst språk", "tidl": "tidligere", "osv": "osv.", "i_astron": "i astronomi", "i_jus": "i jus", "sms_er": "sammensetninger", "sj": "sjelden", "i_mil": "i militærspråk", "i_psyk": "i psykologi", "eg": "egentlig", "i_tekn_s": "i teknisk språk", "i_kjem": "i kjemi", "i_anat": "i anatomi", "pga": "på grunn av", "i_forb": "i forbindelsen", "uttr_t": "uttrykket", "i_norr_myt": "i norrøn mytologi", "i_gramm": "i grammatikk", "kg": "kilogramm", "i_bibl": "i bibelspråk", "i_fys": "i fysikk", "o_ae": "og andre", "dvs": "dvs.", "i_gr_myt": "i gresk mytologi", "mil": "i militærstell", "nord": "nordisk", "koll": "kollektivt", "myt": "mytologi", "i_zool": "i zoologi"}
 
 
 def find_relation(value):
@@ -39,7 +39,6 @@ def make_missing_word_list(dictionary):
                             m_words.append(rel_id)
                         if rel_id == None:
                             print(dictionary)
-
     if "quote" in keys:
         text = dictionary["quote"]["content"]
         for i in dictionary["quote"]["items"]:

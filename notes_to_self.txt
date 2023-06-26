@@ -4,3 +4,6 @@ frekvens, lengden på ordet, om example != 0, kan være en del av regenstykket.
 
 
 Norsk aviskorpus https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-4/
+
+
+fjern dupplikater (ord) i WordDataNoBM
