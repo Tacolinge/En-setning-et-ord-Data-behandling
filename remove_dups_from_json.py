@@ -2,19 +2,15 @@ import json
 
 file = r'C:\Users\fortn\Desktop\Programmerings prosjekter\En Setning Et Ord\data-behandling\En-setning-et-ord-Data-behandling\cleanWordDataBm.json'
 
-# fjerner også singel bokstav ord som "ø"
-
 
 def remove_dups_from_json(file):
     with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
         new_data = []
         unique_words = set()
-
         for item in data:
             word = item.get("Word")
-            if len(word) <= 1:
-                print(word)
+
             if word not in unique_words:
                 unique_words.add(word)
                 new_data.append(item)
