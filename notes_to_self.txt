@@ -10,8 +10,12 @@ faktorer
 -finnes det example
 -lengden på explanation
 
-
-
+12
+3
+qqq12354125
+a
+f
+å
 
 Norsk aviskorpus https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-4/
 
