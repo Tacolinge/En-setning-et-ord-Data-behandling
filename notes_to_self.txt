@@ -10,12 +10,18 @@ faktorer
 -finnes det example
 -lengden på explanation
 
-12
-3
-qqq12354125
-a
-f
-å
+freq =
+ord over 10000 + 12
+ord over 5000 + 10
+ord over 2500 + 9
+ord over 1250 + 8
+ord over 500  + 7
+ord over 200  + 5
+ord over 40   + 2
+or over 5     + 1
+
 
 Norsk aviskorpus https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-4/
 
+sjekk opp i:
+åbit innholder forsatt $ tegn
